@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="2048Consolo.exe" version="1.0.0.0" publicKeyToken="fc32fbc2d23a578a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="2048Consolo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="2048Consolo.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="2048Consolo.exe" size="8656">
+      <assemblyIdentity name="2048Consolo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>X1VOPfjXbzrw8c0+5K/9CfUBCOZXax1BRdZdr3qkI8I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="2048Consolo.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PCFORNAYUTA\Nayuta" issuerKeyHash="bd7ebec1d9d02d270174033387e283d06e4482b7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JkpmYusgIpxtMAgzdbnYQXhDqUmb9EPhsR97VgPoIbo=</DigestValue></Reference></SignedInfo><SignatureValue>bqkR3xMeKeJsdIpro1TRxDbwv4uEES7qUp/cXwQwSDics9tXXueKnMu3vAldxgxec3QCqdb0n29bm2e/IEMAcJH2jzhEQWZCZXw2MlUdNcnKGxRpWw4Fax+T4IRdAiS6etWS6+law49N2j2RhEswNap9fT9BGgd3GI4PE04pqB4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zmeZGUETXGU7Z+qVO7AHAnmdSFBtpj9uoTH+DlVcQEjphqwS6qyhL3JiP/AqR5ybbZgJyhp5DvS2dL7KVY/F4htmGA+KjtZFZAYU6Sj0wheDCjYibqRBdUl2+Y0w8ylJFqI8ms/hYfmhzGbeCOmQhD9+MLF/ZJxVNN8jf3aFrbU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ba21e803567b1fb1e143f49b49a9437841d8b9753308306d9c2220eb62664a26" Description="" Url=""><as:assemblyIdentity name="2048Consolo.exe" version="1.0.0.0" publicKeyToken="fc32fbc2d23a578a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PCFORNAYUTA\Nayuta</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OkjL7N5W8moqmlLCBPvuRStxdICEcrSykZB4o0YoDnY=</DigestValue></Reference></SignedInfo><SignatureValue>VbgxCV0vTy7uWMZG91IebyfiKgWARk1J8WHJNT0CYvTRguc63ESOXlGpkXSoskv3w6LZbUtelMj95IcxmBywD7ZGaUrkSnkiNoPAUwLmq4L0La83nP2xzk9PUzhfUBen5OA/N3/zWVJPo6F7Bcjd/h1bxEw8tnk9rn1FcTmYWAk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zmeZGUETXGU7Z+qVO7AHAnmdSFBtpj9uoTH+DlVcQEjphqwS6qyhL3JiP/AqR5ybbZgJyhp5DvS2dL7KVY/F4htmGA+KjtZFZAYU6Sj0wheDCjYibqRBdUl2+Y0w8ylJFqI8ms/hYfmhzGbeCOmQhD9+MLF/ZJxVNN8jf3aFrbU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQb7s3jxmbDbdCjbKQiMheBjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAUABDAEYATwBSAE4AQQBZAFUAVABBAFwATgBhAHkAdQB0AGEwHhcNMjMwNjMwMTcwNDU4WhcNMjQwNjI5MjMwNDU4WjAvMS0wKwYDVQQDHiQAUABDAEYATwBSAE4AQQBZAFUAVABBAFwATgBhAHkAdQB0AGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM5nmRlBE1xlO2fqlTuwBwJ5nUhQbaY/bqEx/g5VXEBI6YasEuqsoS9yYj/wKkecm22YCcoaeQ70tnS+ylWPxeIbZhgPio7WRWQGFOko9MIXgwo2Im6kQXVJdvmNMPMpSRaiPJrP4WH5ocxm3gjpkIQ/fjCxf2ScVTTfI392ha21AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAAv3ubpeM78g2Gg9ansNXciJYXyTBLH68RD1bexbXxd37sc+vbyTiIlSuezVAj+XZZkVD1BNsMcMG/40ELxZ4m0ygXuYuRtkOKyxZS13VUWvCeHc53/pZj8YAKwZcl+hksf5HS46LXDOAcysOlj9m5fEPk/KmJwXNll4CLvtJ4xc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
